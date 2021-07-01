@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNTN - Landing Page (Community)</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <header>
+        <div class="sky rellax" data-rellax-speed='9'><img src="img/header_bg_1.png" alt="Sky"></div>
+        <div class="horizon rellax" data-rellax-speed='4.5'><img src="img/header_bg_2.png" alt="Hoorizon"></div>
+        <div class="hero rellax" data-rellax-speed='2'><img src="img/header_bg_3.png" alt="Hero"></div>
+        <div class="darkspace rellax" data-rellax-speed='1'><img src="img/header_bg_4.png" alt="Darkspace"></div>
+        <div class="dark-gradient"></div>
+        <div class="header__navbar-wide">
+            <div class="header__navbar">
+                <a href="#"><div class="header__logo"><img src="img/header_logo.svg" alt="Logo"></div></a>
+                <div class="header__nav">
+                    <ul>
+                        <li><a href="#equipment">Equipment</a></li>
+                        <li><a href="#main">About us</a></li>
+                        <li><a href="#footer">Blog</a></li>
+                    </ul>
+                </div>
+                <a href="#">
+                    <div class="header__log-in">
+                        <img src="img/header_account-icon.png" alt="account-icon">
+                        <p>Account</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="header__text rellax" data-rellax-speed='10'>
+            <p>A HIKING GUIDE</p>
+            <h1>Be Prepared For The Mountains And Beyond!</h1>
+            <a href="#main">
+                <p>scroll down</p>
+                <i class="fas fa-long-arrow-alt-down"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="main__cards"  id="main">
+                <div class="main__card hiker">
+                    <div class="card__text">
+                        <div class="card__number">01</div>
+                        <p class="card__uptitle">GET STARTED</p>
+                        <h2>What level of  hiker are you?</h2>
+                        <p class="card__par">Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker?</p>
+                        <a href="#">
+                            <p>read more</p>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </a>
+                    </div>
+                    <div class="card__img">
+                        <img src="/img/main_img_1.jpg" alt="Hiker">
+                    </div>
+                </div>
+                <div class="main__card gear">
+                    <div class="card__text">
+                        <div class="card__number">02</div>
+                        <p class="card__uptitle">HIKING ESSENTIALS</p>
+                        <h2>Picking the right Hiking Gear!</h2>
+                        <p class="card__par">The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have. Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.</p>
+                        <a href="#">
+                            <p>read more</p>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </a>
+                    </div>
+                    <div class="card__img" id="equipment">
+                        <img src="/img/main_img_2.jpg" alt="Rock edge">
+                    </div>
+                </div>
+                <div class="main__card map">
+                    <div class="card__text">
+                        <div class="card__number">03</div>
+                        <p class="card__uptitle">WHERE YOU GO IS THE KEY</p>
+                        <h2>Understand Your Map & Timing</h2>
+                        <p class="card__par">To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction..</p>
+                        <a href="#">
+                            <p>read more</p>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </a>
+                    </div>
+                    <div class="card__img">
+                        <img src="/img/main_img_3.jpg" alt="Watch in a hand">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="wrapper">
+            <div class="footer-body">
+                <div class="footer-left">
+                    <img src="/img/header_logo.svg" alt="Logo">
+                    <p class="par">Get out there & discover your next slope, mountain & destination!</p>
+                    <p class="copyright">Copyright 2020 MNTN, Inc. Terms & Privacy. A concept by Kryston Schwarze</p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-right__left">
+                        <h6>More on The Blog</h6>
+                        <a href="#">About MNTN</a>
+                        <a href="#">Contributors & Writers</a>
+                        <a href="#">Write For Us</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <div class="footer-right__right">
+                        <h6>More on MNTN</h6>
+                        <a href="#">The Team</a>
+                        <a href="#">Jobs</a>
+                        <a href="#">Press</a>
+                        <p class="filler"></p>
+                        <p class="filler"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/rellax.min.js"></script>
+    <script>
+        let rellax = new Rellax('.rellax');
+    </script>
+    <script src="js/all.js"></script>
+</body>
+</html>
