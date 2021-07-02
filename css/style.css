@@ -292,7 +292,8 @@ header .header__text a:hover, header .header__text a:hover p {
     height: 109vh;
   }
   header .darkspace {
-    top: 55%;
+    top: 48%;
+    height: 65%;
   }
   header .header__navbar-wide .header__navbar .header__nav {
     width: 25%;
@@ -306,6 +307,9 @@ header .header__text a:hover, header .header__text a:hover p {
 }
 
 @media screen and (max-width: 1700px) and (max-width: 1440px) and (max-width: 1200px) and (max-width: 1024px) {
+  header .darkspace {
+    top: 50%;
+  }
   header .header__navbar-wide .header__navbar .header__nav {
     width: 35%;
   }

@@ -222,7 +222,8 @@ header {
         header {
             height: 109vh;
             .darkspace {
-                top: 55%;
+                top: 48%;
+                height: 65%;
             }
             .header__navbar-wide {
                 .header__navbar {
@@ -242,6 +243,9 @@ header {
             }
             @media screen and (max-width: 1024px) {
                 header {
+                    .darkspace {
+                        top: 50%;
+                    }
                     .header__navbar-wide {
                         .header__navbar {
                             .header__nav {
